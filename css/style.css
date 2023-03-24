@@ -405,9 +405,9 @@ header {
 .portfolio {
     margin: 0 auto;
     max-width: 1000px;
-    display: grid;
-    grid-gap: 2em;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-direction:column;
+    gap: 2em;
 }
 
 .portfolio__item {
