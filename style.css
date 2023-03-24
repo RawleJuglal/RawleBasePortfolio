@@ -406,7 +406,7 @@ header {
     margin: 0 auto;
     max-width: 1000px;
     display: flex;
-    flex-direction:column;
+    flex-wrap:wrap;
     gap: 2em;
 }
 
@@ -433,6 +433,14 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
+}
+
+.portfolio a{
+    max-width:300px;
+}
+
+.portfolio a img{
+    width:100%;
 }
 
 
